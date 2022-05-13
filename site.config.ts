@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Personal Blog of Feifan Fan',
+  name: 'personal-blog',
   domain: 'www.blog-frankfan.xyz',
   author: 'Feifan Fan',
 
