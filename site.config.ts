@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'personal-blog',
-  domain: 'www.blog-frankfan.xyz',
+  domain: 'www.blog-frankfan.com',
   author: 'Feifan Fan',
 
   // open graph metadata (optional)
