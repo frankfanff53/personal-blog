@@ -96,7 +96,6 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
       </div>
-      <a href="https://www.flaticon.com/free-icons/dog" title="dog icons">Website icon created by AomAm - Flaticon</a>
     </footer>
   )
 }
