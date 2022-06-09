@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
             <link
               rel='icon'
               type='image/png'
-              sizes='192x192'
+              sizes='32x32'
               href='favicon.png'
             />
 
