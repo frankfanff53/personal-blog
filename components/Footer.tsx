@@ -31,11 +31,18 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2022 {config.author}
-      {/* <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
-        <img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
-      </a> */}
-      本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
+      <div className={styles.copyright}>
+          <div>
+          Copyright 2022 {config.author}
+          </div>
+      </div>
+      <div className={styles.copyright} style={{"justifyContent": "center"}}>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+          <img alt="知识共享许可协议" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" />
+        </a>
+          <div style={{"width": "200px", "paddingTop": "10px"}}>
+          本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
+          </div>
       </div>
       
       
