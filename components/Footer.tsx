@@ -33,7 +33,7 @@ export const FooterImpl: React.FC = () => {
     <footer className={styles.footer}>
       <div className={styles.copyright}>
           <div>
-          Copyright 2022 {config.author}
+          Copyright 2023 {config.author}
           </div>
       </div>
       <div className={styles.copyright} style={{"justifyContent": "center"}}>
